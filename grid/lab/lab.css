@@ -1,0 +1,54 @@
+
+body {
+    background-color: #333;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-gap: 20px;
+    grid-template-rows: 1fr;
+}
+
+.glyph {
+    /* background-color: red; */
+    border-radius: 10px;
+    height: 90px;
+    text-align: center;
+    font-size: 4rem;
+    transition: all 0.5s;
+    box-shadow: #000000 0 1px 15px 1px;
+}
+
+
+.glyph:hover {
+    /* transform: scale(1.05); */
+    box-shadow: #000000 10px 10px 20px 10px;
+}
+
+.red {
+    background: linear-gradient(0deg, #CA0404, #FF8888);
+}
+
+.blue {
+    background: linear-gradient(45deg, blue, #C0ACFF);
+}
+
+.green {
+    background: linear-gradient(to left top, green, #C9FF65)
+}
+
+.black {
+    background: linear-gradient(.25turn, #111, 10%, black, 80%, #533E3E);
+    color: red;
+}
+
+.orange {
+    background: radial-gradient(ellipse at top, orange, transparent),
+        radial-gradient(ellipse at bottom, yellow, transparent);
+}
+
+.gnu {
+    background: radial-gradient(closest-side, #333, #222);
+}
+
