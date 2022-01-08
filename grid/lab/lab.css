@@ -13,11 +13,14 @@ body {
 .glyph {
     /* background-color: red; */
     border-radius: 10px;
-    height: 90px;
+    height: 150px;
     text-align: center;
     font-size: 4rem;
     transition: all 0.5s;
     box-shadow: #000000 0 1px 15px 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
