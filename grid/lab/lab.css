@@ -22,12 +22,13 @@ body {
 
 
 .glyph:hover {
-    /* transform: scale(1.05); */
+    transform: scale(1.05);
     box-shadow: #000000 10px 10px 20px 10px;
 }
 
 .red {
     background: linear-gradient(0deg, #CA0404, #FF8888);
+    color: #3EF55A;
 }
 
 .blue {
@@ -40,12 +41,13 @@ body {
 
 .black {
     background: linear-gradient(.25turn, #111, 10%, black, 80%, #533E3E);
-    color: red;
+    color: #3EF55A;
 }
 
 .orange {
     background: radial-gradient(ellipse at top, orange, transparent),
         radial-gradient(ellipse at bottom, yellow, transparent);
+    color: #12AFFF;
 }
 
 .gnu {
