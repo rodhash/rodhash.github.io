@@ -1,0 +1,70 @@
+
+/* Google font: Vujahday Script */
+@import url('https://fonts.googleapis.com/css2?family=Vujahday+Script&display=swap');
+
+/* Google font: Saira Condensed */
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed&family=Vujahday+Script&display=swap');
+
+
+body {
+    background-color: #333;
+    color: rgba(255,255,255,0.7);
+    font-family: 'Saira Condensed', sans-serif;
+    user-select: none;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+input {
+    background-color: #333;
+    border: none;
+    border-bottom: 1px solid orange;
+}
+
+input:focus, input:active {
+    background-color: #333;
+    border: none;
+    border-bottom: 1px solid red;
+    outline: none;
+    color: red;
+}
+
+/* Input suggestions / completion colors */
+/* https://stackoverflow.com/questions/2781549/removing-input-background-colour-for-chrome-autocomplete */
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 30px #333 inset !important;
+  -webkit-text-fill-color: red !important;
+  box-shadow: 0 0 0 30px #333 inset !important;
+}
+
+.done {
+    text-decoration: line-through;
+    color: red;
+}
+
+button {
+    border: none;
+    background-color: rgba(0,0,0,0);
+    color: gray;
+    font-weight: 600;
+}
+
+.delBtn {
+    border: none;
+    background-color: rgba(0,0,0,0);
+    color: orange;
+    font-style: italic;
+    font-size: 1.2rem;
+    font-family: 'Vujahday Script', cursive;
+    padding-left: 1.5rem;
+    font-weight: 600;
+}
+
