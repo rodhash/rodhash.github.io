@@ -19,7 +19,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 90vh;
 }
 
 
@@ -72,5 +72,16 @@ button {
     font-family: 'Vujahday Script', cursive;
     padding-left: 1.5rem;
     font-weight: 600;
+}
+
+#github {
+    font-size: 2rem;
+    position: fixed;
+    bottom: 10px;
+}
+
+#github > a {
+    color: orange;
+    text-decoration: none;
 }
 
